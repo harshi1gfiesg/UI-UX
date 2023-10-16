@@ -1,0 +1,88 @@
+/* Set the background color for the entire body */
+body {
+    background-color: #333; /* Light black background */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container for the entire content */
+.container {
+    width: 80%; /* Adjust the width as needed */
+    max-width: 1200px; /* Limit the maximum width */
+    background-color: #fff; /* Background color for the container */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center; /* Center-align the content within the container */
+}
+
+/* Image styles */
+.img-fluid {
+    max-width: 50%;
+    height: 50%;
+    border-radius: .25rem;
+}
+
+
+/* Container for the registration form */
+.form-container {
+    width: 50%; /* Adjust the width as needed */
+    padding: 20px; /* Add padding to the container */
+    background-color: #fff; /* Background color for the form container */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Card title styles */
+.form-container h3 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Form field styles */
+.form-outline {
+    margin-bottom: 15px;
+    text-align: left; /* Align input labels to the left */
+}
+
+.form-outline input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.form-label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+/* Align gender and select boxes to the left */
+.d-md-flex {
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/* Button styles */
+.d-flex .btn {
+    margin-top: 15px;
+}
+
+/* Customize radio button styles */
+.form-check-input[type="radio"] {
+    margin-right: 5px;
+}
+
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+    font-size: 1rem;
+    line-height: 2.15;
+    padding-left: .75em;
+    padding-right: .75em;
+    }
+    .card-registration .select-arrow {
+    top: 13px;
+    }

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> <!-- Include your CSS file here -->
+    <title>Shopping Page</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Product List</h1>
+        <div class="row">
+            <div class="col">
+                <input type="checkbox" class="product" value="Pro Package - $199.00">
+                <label for="product1">Pro Package - $199.00</label>
+            </div>
+            <div class="col">
+                <input type="checkbox" class="product" value="Consulting - $100.00">
+                <label for="product2">Consulting - $100.00</label>
+            </div>
+            <div class="col">
+                <input type="checkbox" class="product" value="Support - $10.00">
+                <label for="product3">Support - $10.00</label>
+            </div>
+        </div>
+        <button onclick="generateInvoice()">Generate Invoice</button>
+    </div>
+
+    <!-- Invoice Receipt Section (Hidden by default) -->
+    <div id="invoiceReceipt" class="card">
+        <!-- Your invoice receipt content will be generated here -->
+    </div>
+
+    <script src="script.js"></script> <!-- Include your JavaScript file here -->
+</body>
+</html>
